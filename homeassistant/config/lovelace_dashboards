@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace_dashboards",
+  "data": {
+    "items": [
+      {
+        "id": "dashboard_portainer",
+        "show_in_sidebar": true,
+        "icon": "mdi:docker",
+        "title": "Portainer",
+        "require_admin": true,
+        "mode": "storage",
+        "url_path": "dashboard-portainer"
+      }
+    ]
+  }
+}

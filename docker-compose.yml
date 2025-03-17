@@ -1,0 +1,4 @@
+include:
+  - portainer/compose.yml
+  - homeassistant/compose.yml
+  - wireguard/compose.yml
