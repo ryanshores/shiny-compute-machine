@@ -9,6 +9,7 @@ services:
       --cleanup
     environment:
       - WATCHTOWER_SCHEDULE=0 4 * * *
+      - TZ=America/Chicago
     logging:
       driver: json-file
       options:
